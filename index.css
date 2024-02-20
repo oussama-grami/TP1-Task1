@@ -1,0 +1,41 @@
+body, html {
+    height:100% ;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   background-color: crimson;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 60px;;
+}
+.input-group mb-3{
+    background-color: blue;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
+    border-color: royalblue;
+    border-style: solid;
+    border-width: 5px;
+}
+.input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n+3),
+ .input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-control, .input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-select, .input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+    background-color: royalblue;
+}
+:root {
+    background-color: rgb(143, 220, 190);
+}
+.level-container{
+    margin-bottom: 60px;
+    background-color: gray;
+}
+h1{
+    font-size: 60px;
+}
+.print{
+    margin: 20px;;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px;;
+}

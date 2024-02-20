@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chiffres cachés</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"  >
+    <link rel="stylesheet" href="window.css">
+
+</head>
+<body>
+ <div class="container">
+    <div class="level-container">
+        <h3>Niveau de difficulté </h3>
+        <button  class="facile" class="btn btn-dark">Facile</button>
+        <button  class="intermediaire" class="btn btn-dark">Intermediaire</button>
+        <button  class="difficile" class="btn btn-dark">Difficile</button>
+    </div>
+    <div>
+        <button id="startGame" class = "btn btn-dark" style="background-color: midnightblue;margin-bottom: 60px;">Commencer a jouer</button>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+           <h1>Jeu de devinette</h1>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Numero</span>
+            <input id="input" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+        </div>
+        </div>
+        <div class="set-container">
+            <button id="validate" class="btn btn-primary">Valider</button>
+            <button id="otherGame" class="btn btn-danger">Une autre partie</button>
+            <p class="print"></p>
+
+        </div>
+    </div>
+ </div>
+</body>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="window.js"></script>
+</html>
